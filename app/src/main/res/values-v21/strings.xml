@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StorageExample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="primitive_type">Primitive</string>
+    <string name="serialized_object">Serialized</string>
+    <string name="parcealable_object">Parcealable</string>
+    <string name="enter_model">Enter model</string>
+    <string name="enter_make">Enter make</string>
+    <string name="enter_year">Enter year</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="no_make">Make cannot be empty</string>
+    <string name="no_model">Model cannot be empty</string>
+    <string name="no_year">Year cannot be empty</string>
+
+    <string name="save_shared_preferences">Prefs</string>
+    <string name="save_sqlite">SQLite</string>
+    <string name="save_file">File</string>
+    <string name="results">Results</string>
+
+</resources>

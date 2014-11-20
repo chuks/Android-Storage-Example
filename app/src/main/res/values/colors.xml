@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color_normal">#E91E63</color>
+    <color name="background_color_pressed">#ec407a</color>
+    <color name="txt_color_bold">#5E5E5E</color>
+
+    <color name="primary_color">#3F51B5</color>
+    <color name="primary_color_dark">#303F9F</color>
+    <color name="accent_color">#E91E63</color>
+
+    <color name="white">#FFFFFF</color>
+</resources>

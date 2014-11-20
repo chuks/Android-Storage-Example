@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    tools:context="com.kekwanu.passingdataviaintentsexample.ResultsActivity"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/make"
+        android:layout_marginTop="64dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/txt_color_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:id="@+id/model"
+        android:layout_below="@id/make"
+        android:textSize="18sp"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/txt_color_bold"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_below="@id/model"
+        android:textSize="18sp"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/txt_color_bold"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp" />
+
+</RelativeLayout>
